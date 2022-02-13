@@ -10,10 +10,10 @@
   <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
 
-
   <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="stylesheet" href="./../components/avatar.css">
 
-  <title>Unstoppable&nbsp;UI | Installation</title>
+  <title>Unstoppable&nbsp;UI | Avatar</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
 
         <nav class="navbar">
           <ul class="nav-links">
-            <li class="m-2">
+            <li class="m-2 active">
               <a href="../index.html" class="br-2">Home</a>
             </li>
             <li class="m-2">
@@ -66,14 +66,14 @@
               <li>
                 <h5 class="my-3">Get Started</h5>
               </li>
-              <li class="active">
+              <li class="m-2">
                 <a href="./installation.html">Installation</a>
               </li>
 
               <li>
                 <h5 class="my-3">Components</h5>
                 <ul>
-                  <li class="m-2">
+                  <li class="m-2 active">
                     <a href="./avatar.html">Avatar</a>
                   </li>
                   <li class="m-2">
@@ -120,39 +120,57 @@
 
         <div class="main-content">
           <section>
-            <h1>Get Started</h1>
+            <div>
+              <h1>Avatar</h1>
 
-            <section class="introduction">
-              <h2>Introduction</h2>
               <p>
-                Welcome! Get started with <strong>Unstoppable&nbsp;UI</strong> and build awesome web pages in no time.
-                Unstoppable&nbsp;UI provides pre-made components to
-                speed up your process.<br />
+                An <strong>avatar</strong> is a small image that you can add to your profile, usually in circular
+                shapes.
+                It can be a photo of you or of any other pfp image that you want. You might have come across this a lot
+                while using any social media or conferencing site.
               </p>
-            </section>
+              <p>
+                Unstoppable UI currently ships with basic avatar with varying sizes.
+              </p>
+            </div>
             <hr />
 
-            <section class="installation">
-              <h2>Installation</h2>
+            <section>
+              <h2>Avatar with different sizes</h2>
               <p>
-                Copy the below code snippet in <code class="primary-color">&lt;head&gt;</code> tag of HTML file and
-                start using it.
+                To create profile avatars simply add <code class="primary-color">avatar</code> class with contextual
+                classes to add size to the avatars to your <code class="primary-color">&lt;img&gt;</code> element.
               </p>
+              <div class="demo-container">
+                  
+                  <img class="avatar br-rounded avatar-xs" src="../assets/images/avatar-image.jpg" alt="avatar" />
+
+                  <img class="avatar br-rounded avatar-sm" src="../assets/images/avatar-image.jpg" alt="avatar" />
+
+                  <img class="avatar br-rounded avatar-md" src="../assets/images/avatar-image.jpg" alt="avatar" />
+
+                  <img class="avatar br-rounded avatar-lg" src="../assets/images/avatar-image.jpg" alt="avatar" />
+              </div>
 
               <figure class="code-container">
                 <code>
-                  <script src="https://gist.github.com/Ronak-Mutha/d35b70b147ecb7c95e676575326894ff.js"></script>
+                  <script src="https://gist.github.com/Ronak-Mutha/6a2ab6e143c431dac009dfe631ae8c8d.js"></script>
                 </code>
               </figure>
-            </section>
-            <hr />
+              <hr/>
 
             <div class="page-navigation-btns">
-              <a href="./avatar.html" class="ml-auto">
-                Avatar
+              <a href="./installation.html">
+                <span><i class="fas fa-chevron-left"></i></span>
+                Installation
+              </a>
+              <a href="./alert.html" class="ml-auto">
+                Alert
                 <span><i class="fas fa-chevron-right"></i></span>
               </a>
             </div>
+          </section>
+
           </section>
         </div>
       </main>
