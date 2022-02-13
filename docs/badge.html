@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./../components/avatar.css">
+    <link rel="stylesheet" href="./../components/badge.css">
+
+    <title>Unstoppable&nbsp;UI | Badge</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-wrapper py-2">
+            <header class="header p-3">
+                <div class="logo-wrapper">
+                    <a href="../index.html" class="logo text-black">Unstoppable&nbsp;UI</a>
+
+                    <button class="menu-btn">
+                        <i class="fas fa-2x fa-bars" title="Menu"></i>
+                        <span class="hidden">Menu</span>
+                    </button>
+                </div>
+
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="m-2 active">
+                            <a href="../index.html" class="br-2">Home</a>
+                        </li>
+                        <li class="m-2">
+                            <a href="/docs/installation.html" class="br-2 active">Docs</a>
+                        </li>
+                        <li class="m-2">
+                            <a href="https://github.com/Ronak-Mutha/unstoppable-ui" target="_blank"
+                                rel="noopener noreferrer" class="br-2">Contribute <i
+                                    class="fab fa-github-square"></i></a>
+                        </li>
+                    </ul>
+
+                    <button class="navbar-close-btn">
+                        <i class="fa fa-2x fa-times" class="br-2"></i>
+                        <span class="hidden">Close</span>
+                    </button>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-wrapper mx-3 mt-3">
+            <main class="docs-main">
+                <aside class="aside-nav">
+                    <nav class="aside-navigation pl-2" aria-label="secondary-navigation">
+                        <ul>
+                            <li class="component-dropdown py-2">
+                                Menu
+                                <span class="dropdown-arrow">
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </li>
+
+                            <li>
+                                <h5 class="my-3">Get Started</h5>
+                            </li>
+                            <li class="m-2">
+                                <a href="./installation.html">Installation</a>
+                            </li>
+
+                            <li>
+                                <h5 class="my-3">Components</h5>
+                                <ul>
+                                    <li class="m-2">
+                                        <a href="./avatar.html">Avatar</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./alert.html">Alert</a>
+                                    </li>
+                                    <li class="m-2 active">
+                                        <a href="./badge.html">Badge</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./button.html">Button</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./card.html">Card</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./image.html">Image</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./input.html">Input</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./typography.html">Typograhy</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./list.html">Lists</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./navigation.html">Navigation</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./modal.html">Modal</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./snackbar.html">Snackbar</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./grid.html">Grid</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <div class="main-content">
+                    <section>
+                        <div>
+                            <h1>Badge</h1>
+
+                            <p>
+                                A <strong>badge</strong> is used to add additional information to the content. It is
+                                most widely used with icons, and avatars.
+                            </p>
+                        </div>
+                        <hr />
+
+                        <section>
+                            <h2>Badge on Icons</h2>
+                            <p>
+                                Badge on Icons are mostly used for notification or showing some useful information like
+                                current items in wishlist, unread messages in social media website.
+                            </p>
+                            <div class="demo-container">
+                                <div class="badge-container icon-lg">
+                                    <i class="fas fa-envelope"></i>
+                                    <span class="icon-badge">4</span>
+                                </div>
+
+                                <div class="badge-container icon-lg">
+                                    <i class="far fa-bell"></i>
+                                    <span class="icon-badge">4</span>
+                                </div>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/aa7ee24804c7408caf5b4ffcedfd8aa7.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+                        <section>
+                            <h2>Badge on Avatars</h2>
+                            <p>
+                                To create avatar with badge simply add <code
+                                    class="primary-color">badge-container</code> class. Badge on Avatars are used to
+                                represent user's current status which can be either online/offline/busy.
+                            </p>
+                            <div class="demo-container">
+                                <div class="badge-container">
+                                    <img src="../assets/images/avatar-image.jpg" alt="avatar"
+                                        class="avatar avatar-md br-circle" />
+                                    <span class="badge badge-online"></span>
+                                </div>
+                                <div class="badge-container">
+                                    <img src="../assets/images/avatar-image.jpg" alt="avatar"
+                                        class="avatar avatar-md br-circle" />
+                                    <span class="badge badge-offline"></span>
+                                </div>
+                                <div class="badge-container">
+                                    <img src="../assets/images/avatar-image.jpg" alt="avatar"
+                                        class="avatar avatar-md br-circle" />
+                                    <span class="badge badge-busy"></span>
+                                </div>
+                            </div>
+
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/2156ac86a0688a07b05c4234f2f189db.js">
+                                    </script>
+                                </code>
+                            </figure>
+                            <hr />
+                        </section>
+                        <section>
+                            <div class="page-navigation-btns">
+                                <a href="./alert.html">
+                                    <span><i class="fas fa-chevron-left"></i></span>
+                                    Alert
+                                </a>
+                                <a href="./button.html" class="ml-auto">
+                                    Button
+                                    <span><i class="fas fa-chevron-right"></i></span>
+                                </a>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </main>
+        </div>
+
+        <script src="./js/navbar.js"></script>
+        <script src="./js/sidebar.js"></script>
+</body>
+
+</html>
