@@ -1,0 +1,16 @@
+.hidden {
+  height: 0;
+  width: 0;
+  top: -999px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.place-items-center {
+  place-items: center;
+}

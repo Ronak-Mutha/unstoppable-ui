@@ -1,0 +1,38 @@
+@import "./../styles/index.css";
+
+*,
+*::before,
+*:after {
+  outline: 1px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-gradient);
+  color: var(--primary-text-color);
+}
+button {
+  color: var(--primary-color);
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  color: var(--background-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 999px;
+}

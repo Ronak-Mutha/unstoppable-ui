@@ -1,0 +1,32 @@
+.hero-image-container {
+  margin: auto;
+  width: 100%;
+}
+
+.hero-image-container {
+  margin: auto;
+  width: 80%;
+}
+
+.hero-text-container {
+  margin: var(--sp-8) auto;
+  padding: var(--sp-32);
+}
+
+.hero-text-container p {
+  margin: var(--sp-20) 0 var(--sp-40);
+  max-width: 50ch;
+}
+
+.hero-cta {
+  background: var(--primary-gradient);
+  color: var(--primary-text-color);
+  padding: var(--sp-16) var(--sp-32);
+  font-weight: bold;
+}
+
+.hero-cta:hover {
+  background: var(--primary-color);
+  color: var(--primary-text-color);
+  padding: var(--sp-16) var(--sp-32);
+}

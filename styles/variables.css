@@ -1,0 +1,91 @@
+/*****************************/
+/************ Table of Content *****************/
+/*
+1. Colors
+2. Shadows
+3. Transition/Animation Speed
+4. Spacing
+5. Sizes
+*/
+/*****************************/
+
+:root {
+  /************ Colors *****************/
+
+  --primary-gradient: linear-gradient(180deg, #00a3ff 0%, #ce00ff 300%);
+  --primary-color: #00a3ff;
+  --black: #131921;
+  --white: #ffffff;
+  --offwhite: #f7f7f7;
+  --yankees-blue: #1d1a37;
+  --vivid-cerulean: #00a3ff;
+  --happy-blu: #2c82c9;
+  --calm-green: #2cc990;
+  --yellow: #eee657;
+  --thai-curry: #fcb941;
+  --burnt-red: #fc6042;
+  --green: #07e307;
+  --red: #de1010;
+  --gray-status: #8a9c8a;
+
+  /* Main pallete */
+  --background-color: var(--white);
+  --background-color-secondary: var(--yankees-blue);
+  --text-color: var(--black);
+  --primary-bg-color: var(--primary-gradient);
+  --primary-text-color: var(--white);
+  --primary-hover-color: var(--vivid-cerulean);
+
+  /* Alert Colors */
+  --info-alert: var(--happy-blu);
+  --success-alert: var(--calm-green);
+  --warning-alert: var(--thai-curry);
+  --danger-alert: var(--burnt-red);
+
+  /* Different shades of Gray */
+  --dark-gray: #646464;
+  --gray: #969696;
+  --gray-highlight: #96969633;
+  --light-gray: #f0f0f0;
+
+  /* Input colors */
+  --input-active: var(--gray);
+  --input-success: var(--green);
+  --input-fail: var(--red);
+  --input-required: var(--burnt-red);
+
+  /* Online Status */
+  --status-online: var(--green);
+  --status-offline: var(--gray-status);
+  --status-busy: var(--red);
+
+  /************ Shadows *****************/
+
+  --default-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+
+  /************ Transition/Animation Speed *****************/
+
+  --slow: 700s;
+  --fast: 300s;
+
+  /************ Spacing *****************/
+
+  --spacer: 16px;
+
+  /************ Sizes *****************/
+
+  --sp-2: 2px;
+  --sp-4: 4px;
+  --sp-8: 8px;
+  --sp-12: 12px;
+  --sp-16: 16px;
+  --sp-20: 20px;
+  --sp-24: 24px;
+  --sp-28: 28px;
+  --sp-32: 32px;
+  --sp-36: 36px;
+  --sp-40: 40px;
+  --sp-44: 44px;
+  --sp-48: 48px;
+  --sp-64: 64px;
+}
