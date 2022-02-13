@@ -8,7 +8,6 @@
 5. Padding right
 6. Padding horizontal
 7. Padding vertical
-8. Padding auto
 */
 /*****************************/
 
@@ -178,20 +177,4 @@
 .py-5 {
   padding-top: calc(3 * var(--spacer));
   padding-bottom: calc(3 * var(--spacer));
-}
-
-/************ Padding auto *****************/
-
-.p-auto {
-  padding: auto;
-}
-
-.px-auto {
-  padding-left: auto;
-  padding-right: auto;
-}
-
-.py-auto {
-  padding-top: auto;
-  padding-bottom: auto;
 }

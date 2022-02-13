@@ -1,0 +1,148 @@
+hr {
+  background: transparent;
+  color: transparent;
+  border: none;
+  border-top: 2px dashed var(--light-gray);
+}
+
+.aside-nav {
+  border-bottom: 2px solid var(--gray);
+  margin-top: var(--sp-24);
+  padding-bottom: var(--sp-8);
+}
+
+.aside-navigation li a {
+  border-radius: var(--sp-8);
+  height: 100%;
+  width: 100%;
+  padding: var(--sp-8);
+  display: inline-block;
+}
+
+.aside-navigation li a:hover {
+  background: var(--primary-gradient);
+  color: var(--primary-text-color);
+}
+
+.aside-navigation {
+  font-size: var(--sp-16);
+  height: var(--sp-32);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.component-dropdown {
+  background-color: var(--background-color);
+  cursor: pointer;
+  font-size: var(--sp-20);
+  position: sticky;
+  top: 0;
+}
+
+.dropdown-arrow i {
+  font-size: var(--sp-20);
+}
+
+.main-content {
+  padding: 0 var(--sp-16) var(--sp-32);
+}
+
+.page-navigation-btns {
+  display: flex;
+  font-size: var(--sp-20);
+  justify-content: space-between;
+  margin-top: var(--sp-48);
+}
+
+.page-navigation-btns i {
+  font-size: var(--sp-20);
+}
+
+.code-container,
+.demo-container {
+  background-color: var(--offwhite);
+  margin: var(--sp-32) 0 var(--sp-48);
+  padding: var(--size-12);
+  border-radius: var(--sp-8);
+}
+
+.code-container {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.code-container code {
+  width: 100%;
+}
+
+.code-container ::-webkit-scrollbar {
+  height: 2px;
+}
+
+.demo-container {
+  align-items: center;
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.demo-container > * {
+  margin: var(--sp-16) var(--sp-16) var(--sp-16) 0;
+}
+
+.demo-container :is(.typography-container, .grid) {
+  color: var(--black-color);
+  width: 100%;
+}
+
+.gist-data {
+  padding-right: var(--sp-16);
+}
+
+.gist .gist-file {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .docs-main {
+    margin-left: 18rem;
+    margin-top: 4rem;
+    width: calc(100% - 18rem);
+  }
+
+  .aside-nav {
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 18rem;
+    z-index: 1;
+  }
+
+  .aside-navigation {
+    background-color: var(--background-color);
+    height: 90vh;
+    overflow-y: scroll;
+    padding-left: var(--sp-40);
+    margin-top: var(--sp-64);
+  }
+
+  .component-dropdown {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .main-content {
+    width: calc(100% - 10%);
+    display: grid;
+    place-items: center;
+  }
+
+  .code-container,
+  .demo-container {
+    width: 90%;
+    margin: var(--sp-32) auto var(--sp-48);
+  }
+}

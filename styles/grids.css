@@ -1,0 +1,11 @@
+.grid-50-50-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 769px) {
+  .grid-50-50-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
