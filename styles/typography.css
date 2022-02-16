@@ -141,7 +141,7 @@ p,
 }
 
 .text-lowercase {
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 /************ Text alignment utilities *****************/
