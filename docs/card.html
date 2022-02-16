@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
+
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./../components/button.css">
+    <link rel="stylesheet" href="./../components/card.css">
+
+    <title>Unstoppable&nbsp;UI | Card</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-wrapper py-2">
+            <header class="header p-3">
+                <div class="logo-wrapper">
+                    <a href="../index.html" class="logo text-black">Unstoppable&nbsp;UI</a>
+
+                    <button class="menu-btn">
+                        <i class="fas fa-2x fa-bars" title="Menu"></i>
+                        <span class="hidden">Menu</span>
+                    </button>
+                </div>
+
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="m-2">
+                            <a href="../index.html" class="br-2">Home</a>
+                        </li>
+                        <li class="m-2 active">
+                            <a href="/docs/installation.html" class="br-2">Docs</a>
+                        </li>
+                        <li class="m-2">
+                            <a href="https://github.com/Ronak-Mutha/unstoppable-ui" target="_blank"
+                                rel="noopener noreferrer" class="br-2">Contribute <i
+                                    class="fab fa-github-square"></i></a>
+                        </li>
+                    </ul>
+
+                    <button class="navbar-close-btn">
+                        <i class="fa fa-2x fa-times" class="br-2"></i>
+                        <span class="hidden">Close</span>
+                    </button>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-wrapper mx-3 mt-3">
+            <main class="docs-main">
+                <aside class="aside-nav">
+                    <nav class="aside-navigation pl-2" aria-label="secondary-navigation">
+                        <ul>
+                            <li class="component-dropdown py-2">
+                                Menu
+                                <span class="dropdown-arrow">
+                                    <i class="fas fa-chevron-right"></i>
+                                </span>
+                            </li>
+
+                            <li>
+                                <h5 class="my-3">Get Started</h5>
+                            </li>
+                            <li class="m-2">
+                                <a href="./installation.html">Installation</a>
+                            </li>
+
+                            <li>
+                                <h5 class="my-3">Components</h5>
+                                <ul>
+                                    <li class="m-2">
+                                        <a href="./avatar.html">Avatar</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./alert.html">Alert</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./badge.html">Badge</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./button.html">Button</a>
+                                    </li>
+                                    <li class="m-2 active">
+                                        <a href="./card.html">Card</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./image.html">Image</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./input.html">Input</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./typography.html">Typograhy</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./list.html">Lists</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./navigation.html">Navigation</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./modal.html">Modal</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./snackbar.html">Snackbar</a>
+                                    </li>
+                                    <li class="m-2">
+                                        <a href="./grid.html">Grid</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+
+                <div class="main-content">
+                    <section>
+                        <div>
+                            <h1>Cards</h1>
+                            <p>
+                                Cards can be used to show brief information about particular thing. You can use card for different purpose such as product information.
+                            </p>
+                        </div>
+                        <hr />
+
+                        <section>
+                            <h2>Card with badge</h2>
+                            <div class="demo-container">
+                                <article class="card product-card">
+                                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                                    <div class="content">
+                                        <h3>FIFA 22 For PC</h3>
+                                        <small class="sold-by">Sold by EA Sports</small>
+                                        <p>
+                                            <strong>Rs. 2599</strong> <small><s>Rs. 4999</s></small>
+                                            <small class="card-discount">(50% OFF)</small>
+                                        </p>
+                                        <button class="btn btn-primary br-1 action-button"><i
+                                                class="fas fa-cart-plus"></i>Buy Now</button>
+                                        <span class="card-badge"><strong>New Release</strong></span>
+                                    </div>
+                                </article>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/7182dc3bcc70c1cd7eb05e98432b7c16.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <h2>Cards with dismiss</h2>
+                            <div class="demo-container">
+                                <article class="card product-card">
+                                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                                    <div class="content">
+                                        <h3>FIFA 22 For PC</h3>
+                                        <small class="sold-by">Sold by EA Sports</small>
+                                        <p>
+                                            <strong>Rs. 2599</strong> <small><s>Rs. 4999</s></small>
+                                            <small class="card-discount">(50% OFF)</small>
+                                        </p>
+                                        <button class="btn btn-primary br-1 action-button"><i
+                                                class="fas fa-cart-plus"></i>Buy Now</button>
+                                        <div class="dismiss">
+                                            <i class="far fa-times-circle" title="close"></i>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/824b683d8f2adbbd039605036720ed65.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <h2>Cards with text overlay</h2>
+                            <div class="demo-container">
+                                <article class="card product-card">
+                                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                                    <div class="content">
+                                        <h3>FIFA 22 For PC</h3>
+                                        <small class="sold-by">Sold by EA Sports</small>
+                                        <p>
+                                            <strong>Rs. 2599</strong> <small><s>Rs. 4999</s></small>
+                                            <small class="card-discount">(50% OFF)</small>
+                                        </p>
+                                        <button class="btn btn-primary br-1 action-button"><i
+                                                class="fas fa-cart-plus"></i>Buy Now</button>
+                                        <div class="text-overlay br-3">
+                                            <p>Out of Stock</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/9021d51a47c59a30879b213436d1741c.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <h2>Text only cards</h2>
+                            <div class="demo-container">
+                                <article class="card text-card">
+                                    <h3>Price Total</h3>
+                                    <div class="text-container">
+                                        <div class="text-container-content">
+                                            <p>Price(2 items)</p>
+                                            <p>5000 /-</p>
+                                        </div>
+                                        <div class="text-container-content">
+                                            <p>Discount</p>
+                                            <p>-2500 /-</p>
+                                        </div>
+                                        <div class="text-container-content">
+                                            <p>Delivery Charges</p>
+                                            <p>50 /-</p>
+                                        </div>
+                                        <div class="text-container-content total-amount">
+                                            <p>Total Amount</p>
+                                            <p>2550 /-</p>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-primary br-1 action-button"><i
+                                            class="fas fa-cart-plus"></i>Place Order</button>
+                                </article>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/27bfb0ac544cd1dc8fc59585a7ce609f.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <h2>Horizontal Cards</h2>
+                            <div class="demo-container">
+                                <article class="card horizontal-card">
+                                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                                    <div class="content">
+                                        <h3>FIFA 22 For PC</h3>
+                                        <div class="buy-info">
+                                            <p>
+                                                <strong>Rs. 4999</strong> <small><s>Rs. 2499</s></small>
+                                                <small class="card-discount">(50% OFF)</small>
+                                            </p>
+                                            <div class="product-count">
+                                                <button>
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                                <span>1</span>
+                                                <button>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-primary br-1 action-button"><i
+                                                    class="fas fa-cart-plus"></i>Buy Now</button>
+                                            <button class="btn br-1 action-button remove-button"><i
+                                                    class="fas fa-trash"></i>Remove</button>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/9f449f723aa53d877dddcc94d53a3c2e.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <h2>Card with shadow</h2>
+                            <div class="demo-container">
+                                <article class="card horizontal-card card-shadow">
+                                    <img class="card-img" src="./../assets/images/fifa-22.jpg" alt="fifa 22" />
+                                    <div class="content">
+                                        <h3>FIFA 22 For PC</h3>
+                                        <div class="buy-info">
+                                            <p>
+                                                <strong>Rs. 4999</strong> <small><s>Rs. 2499</s></small>
+                                                <small class="card-discount">(50% OFF)</small>
+                                            </p>
+                                            <div class="product-count">
+                                                <button>
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                                <span>1</span>
+                                                <button>
+                                                    <i class="fa-solid fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-primary br-1 action-button"><i
+                                                    class="fas fa-cart-plus"></i>Buy Now</button>
+                                            <button class="btn br-1 action-button remove-button"><i
+                                                    class="fas fa-trash"></i>Remove</button>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+                            <figure class="code-container">
+                                <code>
+                                    <script
+                                        src="https://gist.github.com/Ronak-Mutha/7bd5364a3c89916cfe35d76d360b6627.js">
+                                    </script>
+                                </code>
+                            </figure>
+                        </section>
+                        <hr />
+
+                        <section>
+                            <div class="page-navigation-btns">
+                                <a href="./button.html">
+                                    <span><i class="fas fa-chevron-left"></i></span>
+                                    Button
+                                </a>
+                                <a href="./image.html" class="ml-auto">
+                                    Image
+                                    <span><i class="fas fa-chevron-right"></i></span>
+                                </a>
+                            </div>
+                        </section>
+
+                    </section>
+                </div>
+            </main>
+        </div>
+        <script src="./js/navbar.js"></script>
+        <script src="./js/sidebar.js"></script>
+</body>
+
+</html>
