@@ -1,0 +1,27 @@
+.form {
+    padding: var(--sp-8);
+}
+
+.form label {
+    display: block;
+    cursor: pointer;
+    margin-bottom: var(--sp-8);
+}
+
+.form text-area {
+    max-width: 100%;
+}
+
+.input {
+    padding: var(--sp-8);
+    width: 15rem;
+    max-width: 100%;
+}
+
+.input-error, input:invalid {
+    border: 1px solid var(--input-fail);
+}
+
+.input-success, input:valid {
+    border: 1px solid var(--input-success);
+}
