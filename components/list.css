@@ -1,0 +1,25 @@
+ul {
+    padding-left: var(--sp-16);
+    margin: var(--sp-8);
+}
+
+.stacked-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--sp-8);
+    margin: var(--sp-16);
+    min-width: 20rem;
+    border: 1px solid var(--black);
+    position: relative;
+}
+
+.stacked-list-item::before {
+    content: '';
+    position: absolute;
+    height: var(--sp-2);
+    width: 90%;
+    background: var(--primary-gradient);
+    bottom: 0;
+    left: 0;
+}
