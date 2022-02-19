@@ -1,0 +1,78 @@
+.snackbar-buttons,
+.snackbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snackbar.display-none {
+  display: none;
+}
+
+.snackbar-buttons {
+  justify-content: space-evenly;
+}
+
+.snackbar-buttons button,
+.snackbar .btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+  margin: var(--sp-8);
+}
+
+.snackbar-buttons button:hover,
+.snackbar .btn:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.snackbar .btn {
+  color: var(--primary-color);
+  font-size: var(--sp-16);
+  font-weight: 600;
+}
+
+.snackbar {
+  padding: var(--sp-8) var(--sp-12);
+  border-radius: 5px;
+  background: var(--background-color);
+  color: var(--text-color);
+  font-size: var(--sp-16);
+  box-shadow: 0 0px 2px 1px var(--text-color);
+  z-index: 9999;
+}
+
+.cross-icon {
+  margin: var(--sp-8);
+}
+
+.baseline,
+.stacked {
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.leading {
+  position: fixed;
+  bottom: 10%;
+  left: 0%;
+}
+
+.stacked {
+  flex-direction: column;
+}
+
+.stacked-buttons {
+  margin-left: auto;
+}
+
+@media screen and (max-width:600px) {
+  .baseline,
+  .stacked {
+    min-width: 60vw;
+  }
+}
