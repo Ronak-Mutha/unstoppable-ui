@@ -121,8 +121,8 @@ hr {
   }
 
   .aside-navigation {
-    background-color: var(--background-color);
-    height: 90vh;
+    background-color: var(--backround-color);
+    height: 82vh;
     overflow-y: scroll;
     padding-left: var(--sp-40);
     margin-top: var(--sp-64);
