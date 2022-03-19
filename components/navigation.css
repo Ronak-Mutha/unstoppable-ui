@@ -1,0 +1,105 @@
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+    background: white;
+    overflow: hidden;
+}
+
+.main-nav,
+.form-search .search-container,
+.nav-search,
+.uu-nav-links,
+.uu-nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-nav {
+    justify-content: space-around;
+    padding: var(--sp-8);
+    width: 100vw;
+    box-shadow: 0 0 5px 1px var(--gray);
+}
+
+.uu-logo {
+    order: -1;
+    height: 6rem;
+    width: 6rem;
+}
+
+.form-search {
+    height: 3rem;
+}
+
+.nav-search {
+    width: 20rem;
+}
+
+.form-search .search-container {
+    height: 100%;
+    width: 100%;
+    border: 1px solid var(--text-color);
+    border-radius: 15px;
+}
+
+.form-search .search-input {
+    padding: var(--sp-4);
+    border: none;
+    height: 100%;
+    min-width: 12rem;
+    width: 100%;
+    border-radius: 15px;
+    background: transparent;
+}
+
+.form-search .search-input:focus {
+    outline: 1px transparent;
+}
+
+.form-search button {
+    background: transparent;
+    border: none;
+    padding: var(--sp-8) var(--sp-16);
+    height: 100%;
+    font-size: var(--sp-24);
+    color: var(--primary-color);
+}
+
+.btn-link {
+    background: var(--primary-gradient);
+}
+
+.uu-nav-links i {
+    color: var(--text-color);
+}
+
+.btn-link a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    top: -999px;
+}
+
+.show-navbar {
+    width: 60vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-nav {
+        flex-wrap: wrap;
+    }
+
+    .nav-search {
+        order: 1;
+        width: 90%;
+    }
+}

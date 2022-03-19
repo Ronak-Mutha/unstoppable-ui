@@ -14,3 +14,8 @@
 .place-items-center {
   place-items: center;
 }
+
+.navigation-wrapper {
+  max-width: 70vw;
+  overflow-x: scroll;
+}
