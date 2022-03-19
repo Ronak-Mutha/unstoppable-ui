@@ -19,3 +19,12 @@
   max-width: 70vw;
   overflow-x: scroll;
 }
+
+.border-black {
+  border: 1px solid var(--black);
+}
+
+.center {
+  display:grid;
+  place-items: center;
+}
