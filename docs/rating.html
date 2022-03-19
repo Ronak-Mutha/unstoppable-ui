@@ -11,9 +11,10 @@
     <link rel="manifest" href="../assets/images/favicons/site.webmanifest">
 
     <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./../components/alert.css">
+    <link rel="stylesheet" href="./../components/rating.css">
 
-    <title>Unstoppable&nbsp;UI | Alert</title>
+
+    <title>Unstoppable&nbsp;UI | Rating</title>
 </head>
 
 <body>
@@ -77,7 +78,7 @@
                                     <li class="m-2">
                                         <a href="./avatar.html">Avatar</a>
                                     </li>
-                                    <li class="m-2 active">
+                                    <li class="m-2">
                                         <a href="./alert.html">Alert</a>
                                     </li>
                                     <li class="m-2">
@@ -104,7 +105,7 @@
                                     <li class="m-2">
                                         <a href="./navigation.html">Navigation</a>
                                     </li>
-                                    <li class="m-2">
+                                    <li class="m-2 active">
                                         <a href="./rating.html">Rating</a>
                                     </li>
                                     <li class="m-2">
@@ -125,99 +126,46 @@
                 <div class="main-content">
                     <section>
                         <div>
-                            <h1>Alert</h1>
-
+                            <h1>Rating</h1>
                             <p>
-                                An <strong>alert</strong> displays a short, important message in a way that attracts
-                                user's attention without interrupting the user's task.
+                                Rating is used mostly in reviews section of any websites.
                             </p>
                         </div>
                         <hr />
 
                         <section>
-                            <h2>Alert with Icons</h2>
-                            <p>
-                                To create alert with icons simply add <code class="primary-color">alert</code> class
-                                with contextual classes to add different colors on top of that. For example, <code
-                                    class="primary-color">alert-error</code> and a message for notifying some error has
-                                occured.
-                            </p>
+                            <h2>Rating( Read-Only ) </h2>
+                            <p>Unstoppable UI uses font-awesome icons. If you want to add star in filled form then use
+                                <code class='primary-color'>fa-solid</code>
+                                , for unfilled star use
+                                <code class='primary-color'>fa-regular</code></p>
                             <div class="demo-container">
-                                <div class="alert alert-info br-3">
-                                    <i class="alert-logo fas fa-info-circle"></i>
-                                    <p>This is an info alert!</p>
-                                </div>
-                                <div class="alert alert-error br-3">
-                                    <i class="alert-logo fas fa-exclamation-triangle"></i>
-                                    <p>This is an error alert!</p>
-                                </div>
-                                <div class="alert alert-warning br-3">
-                                    <i class="alert-logo fas fa-exclamation"></i>
-                                    <p>This is a warning alert!</p>
-                                </div>
-                                <div class="alert alert-success br-3">
-                                    <i class="alert-logo fas fa-check-circle"></i>
-                                    <p>This is a success alert!</p>
+                                <div class="rating-container">
+                                    <i class="fa-solid fa-star "></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
                                 </div>
                             </div>
                             <figure class="code-container">
                                 <code>
                                     <script
-                                        src="https://gist.github.com/Ronak-Mutha/601aa2097ef60247d6c2c2bf15cae380.js">
+                                        src="https://gist.github.com/Ronak-Mutha/b3144b5a43d7a71d6a4f257298f882c1.js">
                                     </script>
                                 </code>
                             </figure>
-                            <hr />
                         </section>
-                        <section>
-                            <h2>Alert with Icons and outline</h2>
-                            <p>
-                                To create alert with icons and outline simply add <code
-                                    class="primary-color">alert-(alert-type)-outline</code> class
-                                with contextual classes to add different colors on top of that. For example, <code
-                                    class="primary-color">alert-error-outline</code> and a message for notifying some
-                                error has
-                                occured with outline.
-                            </p>
-                            <div class="demo-container">
-                                <div class="alert alert-info-outline br-3">
-                                    <i class="alert-logo fas fa-info-circle"></i>
-                                    <p>This is an info alert with outline!</p>
-                                </div>
+                        <hr />
 
-                                <div class="alert alert-error-outline br-3">
-                                    <i class="alert-logo fas fa-exclamation-triangle"></i>
-                                    <p>This is an error alert with outline!</p>
-                                </div>
-
-                                <div class="alert alert-warning-outline br-3">
-                                    <i class="alert-logo fas fa-exclamation"></i>
-                                    <p>This is a warning alert with outline!</p>
-                                </div>
-
-                                <div class="alert alert-success-outline br-3">
-                                    <i class="alert-logo fas fa-check-circle"></i>
-                                    <p>This is a success alert with outline!</p>
-                                </div>
-
-                            </div>
-                            <figure class="code-container">
-                                <code>
-                                    <script
-                                        src="https://gist.github.com/Ronak-Mutha/c884a587ad1e7680b98d08362b90670c.js">
-                                    </script>
-                                </code>
-                            </figure>
-                            <hr />
-                        </section>
                         <section>
                             <div class="page-navigation-btns">
-                                <a href="./avatar.html">
+                                <a href="./navigation.html">
                                     <span><i class="fas fa-chevron-left"></i></span>
-                                    Avatar
+                                    Navigation
                                 </a>
-                                <a href="./badge.html" class="ml-auto">
-                                    Badge
+                                <a href="./modal.html" class="ml-auto">
+                                    Modal
                                     <span><i class="fas fa-chevron-right"></i></span>
                                 </a>
                             </div>
@@ -227,7 +175,6 @@
                 </div>
             </main>
         </div>
-
         <script src="./js/navbar.js"></script>
         <script src="./js/sidebar.js"></script>
 </body>

@@ -27,6 +27,7 @@
   --green: #07e307;
   --red: #de1010;
   --gray-status: #8a9c8a;
+  --sizzling-sunrise: #fddc00;
 
   /* Main pallete */
   --background-color: var(--white);
@@ -58,6 +59,9 @@
   --status-online: var(--green);
   --status-offline: var(--gray-status);
   --status-busy: var(--red);
+
+  /* Rating Color */
+  --rating-color: var(--sizzling-sunrise);
 
   /************ Shadows *****************/
 
