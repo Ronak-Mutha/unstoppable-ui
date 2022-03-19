@@ -19,3 +19,8 @@
   max-width: 70vw;
   overflow-x: scroll;
 }
+
+/* Using important as this class is meant to override display property to none, if present */
+.display-none {
+  display: none !important;
+}
