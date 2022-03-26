@@ -28,3 +28,8 @@
   display:grid;
   place-items: center;
 }
+
+/* Using important as this class is meant to override display property to none, if present */
+.display-none {
+  display: none !important;
+}
