@@ -20,6 +20,15 @@
   overflow-x: scroll;
 }
 
+.border-black {
+  border: 1px solid var(--black);
+}
+
+.center {
+  display:grid;
+  place-items: center;
+}
+
 /* Using important as this class is meant to override display property to none, if present */
 .display-none {
   display: none !important;
